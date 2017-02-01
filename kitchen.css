@@ -1,0 +1,304 @@
+<head>
+<style type = "text/css">
+body{
+    max-width: 1vw;
+    overflow-x: hidden;
+    margin: 0;
+    max-height: 100%;
+    height: auto;
+}
+
+.navbar-custom{
+	background: -webkit-radial-gradient(white, rgb(180,180,180));
+	width: 100%;
+}
+
+.navbar-custom:active{
+	background: -webkit-radial-gradient(white, rgb(150,150,150));
+	text-decoration: none;
+}
+
+.title{
+	font-family: "Textile";
+	color: rgb(101, 30, 75);
+	font-size: 30px;
+	float: left;
+  	padding: 10px 10px;
+  	padding-left: 7px;
+  	line-height: 30px;
+  	font-weight: 700;
+  	color: rgb(92, 29, 90);
+  	text-shadow: .5px .5px 0px #ededed, 2px 2px 0px rgba(175,106,46,1);
+}
+
+.navbar-nav:hover > li{
+	float: left; 
+	height: 100%;
+}
+
+.title:hover{
+	text-decoration: none;
+	color: rgb(92, 29, 90);
+	text-shadow: 0px 1px 0px white;
+}
+
+li a, .dropbtn{
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #444;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  display: inline-block;
+}
+
+li.dropdown{
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background: -webkit-radial-gradient(white, rgb(190,190,190));
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background: -webkit-radial-gradient(white, rgb(150,150,150));
+}
+
+.dropdown-content a{
+  color: #444;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  display: block;
+  padding: 10px 24px;
+  text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.col {
+	float: left;
+    margin: 0 0 15px 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.Recipes{
+	padding-bottom: 30px;
+	padding-left: 10px;
+}
+
+.food{
+	margin-right: 0;
+	margin-left: 0;
+}
+
+h1.header{
+	color: rgb(101, 30, 75);
+	margin-top: 10px;
+	font-family: sans-serif;
+  	text-shadow: .5px 1.5px 0px #ededed, 4px 4px 0px rgba(175,106,46,1);
+  	font-size: 100px;
+  	font-family: Verdana;
+  	text-align: center;
+  	padding-top: 30px;
+  	width: 100%;
+  	line-height: 200px;
+  	padding-right: 0;
+}
+
+p1{
+	position: relative;
+	top: 20px;
+	color: black;
+	font-size: 26px;
+  	font-family: "Georgia";
+ 	text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+	padding-bottom: 10px;
+	font-style: italic;
+	font-weight: -100;
+}
+
+p{
+	margin-left: 400px;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-family: cursive;
+  	color: rgba(81, 38, 24, 1);
+  	text-shadow: 0px 1px 0px rgba(255,255,255,.5);
+    border width: 5px;
+    border-color: black;
+    border-style: solid;
+    box-shadow: 2px 2px 0px rgba(255,255,255,0.5);
+    width: 500px;
+}
+
+.in{
+	padding-top: 20px;
+}
+
+.link{
+	color: rgb(174, 116, 66);
+	text-shadow: 1px 1px 0px rgba(255,255,255,.9);
+}
+
+.link:hover{
+	text-decoration: none;
+	color: white;
+}
+
+.divider{
+	height: 50px;
+	width: 100%;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
+	background-image: url("img/darkwood-plank.jpg");
+	font-family: "Papyrus"; 
+}
+
+h2.recipe{
+	margin-top: 50px;
+	text-align: center;
+	height: 205px;
+	background-image: url("img/cutting_board_empty.jpg");
+	color: rgb(101, 30, 75);
+	line-height: 150px;
+	font-weight: 800;
+	font-size: 40px;
+	font-family: "Zapfino";
+	text-shadow: 3px 3px 0px rgba(255,255,255,.7);
+}
+
+h2.creator{
+	margin-top: -20px;
+	font-size: 30px;
+	font-family: "Apple Chancery";
+	text-align: center;
+	color: rgb(101, 30, 75);
+	text-shadow: 3px 3px 0px rgba(255,255,255,.6);
+}
+
+h2.stars{
+	margin-top: -140px;
+	font-size: 50px;
+	text-align: center;
+	color: rgb(118, 31, 112);
+	text-shadow: 3px 3px 0px rgba(255,255,255,.6);
+}
+
+h2.header{
+	color: rgb(91, 44, 8);
+  	text-shadow: 0px 1px 0px rgba(255,255,255,.8);
+  	font-size: 100px;
+  	font-family: cursive;
+  	text-align: center;
+  	padding-top: 30px;
+  	width: 100%;
+  	line-height: 240px;
+  	padding-right: 0;
+  	margin-top: 10px;
+}
+
+h3{
+	position: absolute;
+	top: 330px;
+	left: 15px;
+	width: 400px;
+	font-family: "Papyrus";
+	height: 55px;
+	font-size: 30px;
+	color: rgba(255, 255, 255, 0.8);
+	line-height: 60px;
+	background: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0 , 1));
+}
+
+#pic:hover #name{
+	text-shadow: 0px 0px 3px rgba(255,255,255,1);
+}
+
+.home{
+	margin-top: 50px;
+	background-image: url("img/cutting_board.jpg");
+	padding-right: 0;
+	height: 300px;
+	margin-bottom: 30px;
+}
+
+.picture{
+	width: 500px; 
+	height: 500px; 
+	border-radius: 20px;
+	box-shadow: 4px 4px 4px rgb(208, 208, 208);
+}
+
+.recipePage{
+	background-image: url("img/cutting_board.jpg");
+	padding-right: 0;
+	height: 250px;
+}
+
+
+.container{
+	position: relative;
+	top: 50px;
+}
+
+.category h3{
+	position: relative;
+	font: Lucida;
+	font-size: 30px;
+	padding: 10px;
+	text-align: center;
+}
+
+.category:hover{
+	position: relative;
+	top: 7px;
+	left: 7px;
+	box-shadow: none;
+	height: 400px;
+}	
+
+.stir-fry_description{
+	height: auto;
+}
+
+.label p2{
+	font-family: Helvetica;
+	font-size: 20px;
+	color: gray;
+}
+
+.process{
+	padding: 15px;
+	border-style: solid;
+	border-color: black;
+}
+
+.preview{
+	width: auto;
+	height: auto;
+	max-width: 400px;
+	max-height: 400px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.foot{
+	height: 20px;
+	position: fixed;
+	width: 100%;
+	position: bottom;
+}
+</style>
+</head> 
